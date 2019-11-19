@@ -1,0 +1,38 @@
+{
+  "name": "trip-inc-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "DEBUG=app:* nodemon server",
+    "start": "NODE_ENV=production node server"
+  },
+  "keywords": [
+    "trip-inc",
+    "node",
+    "backend"
+  ],
+  "author": "ziker@live.com.mx",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/joi": "^15.1.0",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "helmet": "^3.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.2.7",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-jwt": "^4.0.0"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2"
+  }
+}
